@@ -1,5 +1,4 @@
 local placeId = game.PlaceId
-_G.Kaitun = "BuildABoatForTreasure"
 
 if _G.Kaitun == "BuildABoatForTreasure" then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/buslate/Kaitun-BAFT/main/kai/na/hee/kuy.lua"), true))()
