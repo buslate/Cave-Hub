@@ -30,9 +30,9 @@ if getgenv().Setting["Kaitun"] == true then
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/buslate/Kaitun-BAFT/main/kai/na/hee/kuy.lua"), true))()
 elseif getgenv().Setting["Kaitun"] == false then
      loadstring(game:HttpGet(("https://raw.githubusercontent.com/buslate/Build-A-Boat-For-Treasure/main/Build%20A%20Boat%20V.2.lua"), true))()
+end
 
-
-elseif DrivingEmpire then
+if DrivingEmpire then
 --Driving Empire
 loadstring(game:HttpGet("https://raw.githubusercontent.com/buslate/Driving-Empire/main/.Lua"))()
 
